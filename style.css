@@ -1,0 +1,14 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2 {
+  border-bottom: 2px solid #0d6efd;
+  padding-bottom: 5px;
+}
+
+.hover-glow:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
